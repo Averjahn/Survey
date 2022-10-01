@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1 id="title">Averjahn's Survey Form</h1>
+    <p id="discription">Check out my first survey form!</p>
+    <form>
+        <fieldset>
+            <label for="name">Name
+                <input type="text" id="name" placeholder=" Enter your name">
+            </label>
+            <label for="email">Email
+                <input type="email" id="email" placeholder=" Enter your email">
+            </label>
+            <label for="age">Age
+                <input type="number" min="13" max="120" id="age" placeholder=" Age">
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <label for="dropdown">Bla bla bla
+                <select id="dropdown">
+                    <option value="">(Select one)</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </label>
+            <label for="first"><input type="radio" id="first" name="check"> First</label>
+            <label for="second"><input type="radio" id="second" name="check"> Second</label>
+            <label for="privace-policy"><input id="privace-policy" type="checkbox"> I agree with the privace policy <a href="">privace policy</a></label>
+        </fieldset>
+
+        <fieldset>
+            <label>Upload some file: <input type="file"></label>
+            <label></label>
+            <label for="some-text">Write some text: <textarea id="some-text" cols="30" rows="3" placeholder="Right here"></textarea></label>
+        </fieldset>
+    </form>
+</body>
+</html>

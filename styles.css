@@ -1,0 +1,58 @@
+h1, p {
+    text-align: center;
+    margin: 0.9em auto;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: #000;
+}
+
+label, input[type="text"] {
+    display: block;
+}
+
+form {
+    background-color: rgba(256, 256, 256,.5 ) ;
+    max-width: 45%;
+    /* max-width: 500px;
+    min-width: 300px; */
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    padding: 1em 1em;
+    border-bottom: 3px solid #d59494;
+}
+
+input, select, textarea {
+    display: block;
+    background-color: rgb(254, 87, 69);
+    color: aliceblue; 
+    border: none;
+    min-height: 2em;
+    width: 100%;
+    margin: 0.7em 0; 
+    padding: 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    width: unset;
+    margin: 1vh 1vh 1vh 1vh;
+}
+
+input[type="file"] {
+    min-height: 1em;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+body {
+background-image: url(img/cover.jpeg);}
+
